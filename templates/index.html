@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fan book</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        .mypic {
+            width: 100%;
+            height: 300px;
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.gamebrott.com/wp-content/uploads/2022/01/Jojo-Bizzare-Adventure.jpg');
+            background-position: top;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mypost {
+            width: 95%;
+            max-width: 500px;
+            margin: 20px auto 20px auto;
+            padding: 20px;
+            box-shadow: 0px 0px 3px 0px black;
+        }
+
+        .mypost>button {
+            margin-top: 15px;
+        }
+
+        .mycards {
+            width: 95%;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .mycards>.card {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mypic">
+        <h1>Jojo Fan Book</h1>
+    </div>
+    <div class="mypost">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="enter your name">
+            <label for="floatingInput">Nickname</label>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Fan Massage</label>
+        </div>
+        <button type="button" class="btn btn-dark">Leave a Fan Massage</button>
+
+    </div>
+    <div class="mycards">
+        <div class="card">
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>Amazing series</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">inbornscowl</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>Can't wait next season</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">sightcheetah23</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>Jotaro was my favorite</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">trunksfarmer76</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p>ora-ora-ora<p>
+                    <footer class="blockquote-footer"><cite title="Source Title">wrestleput</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
